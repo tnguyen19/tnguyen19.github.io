@@ -52,3 +52,34 @@ table {
     width: 18%;
     margin: auto;
 }
+#full{
+    width: 100%;
+    margin: auto;
+}
+/********TAKEN FROM W3 SCHOOLS********/
+.w3-hover-opacity:hover{
+    opacity: 0.60;
+    filter: alpha(opacity=60);
+    -webkit-backface-visibility: hidden;
+}
+.w3-hover-opacity{
+    -webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+    transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+}
+.w3-container{
+    padding:0.01em 16px;
+}
+.w3-container:after,.w3-panel:after,.w3-row:after,.w3-row-padding:after,.w3-topnav:after,.w3-clear:after,.w3-btn-group:before,.w3-btn-group:after,.w3-btn-bar:before,.w3-btn-bar:after
+{content:"";display:table;clear:both}
+
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-col.s12,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{width:99.99999%}
+.w3-third{width:22%}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px;
+}
+.w3-row-padding{
+    margin-left: 64px;
+}
+.w3-margin-bottom{margin-bottom:16px!important}
+
+.w3-white{text-align: center; font-size: large}

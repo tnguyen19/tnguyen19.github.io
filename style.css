@@ -1,10 +1,5 @@
 body {
     font-family: 'Catamaran', sans-serif;
-    background-image: url("tiny-squares.png");
-    /*background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
-    background-color: blanchedalmond;
 }
 h1, h3{
     font-family: 'Alegreya SC', serif;
